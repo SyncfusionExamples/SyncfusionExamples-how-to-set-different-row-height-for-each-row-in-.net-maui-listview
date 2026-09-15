@@ -7,7 +7,7 @@ namespace ListViewMaui
         public MainPage()
         {
             InitializeComponent();
-           // listView.QueryItemSize += ListView_QueryItemSize;
+            listView.QueryItemSize += ListView_QueryItemSize;
         }
 
         private void ListView_QueryItemSize(object sender, QueryItemSizeEventArgs e)
